@@ -15,7 +15,8 @@ class App {
     private middleware(): void {
 
         this.express.use('/graphql', graphqlHTTP({
-            schema: schema
+            schema: schema,
+            graphiql: true
         }));
 
     }
