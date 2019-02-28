@@ -1,2 +1,2 @@
-start server: npm run dev <br />
-start build: npm run gulp
+<b>start server</b>: npm run dev <br />
+<b>start build</b>: npm run gulp
